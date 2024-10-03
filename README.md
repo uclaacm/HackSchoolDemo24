@@ -7,8 +7,9 @@
 - [Tailwind CSS Plugins Documentation](https://tailwindcss.com/docs/plugins)
 - [tailwindcss-animate GitHub](https://github.com/tailwindlabs/tailwindcss-animate)
 - [@tailwindcss/typography Plugin](https://github.com/tailwindlabs/tailwindcss-typography)
+- [ShadCN Themes](https://ui.shadcn.com/themes)
 
-
+```bash
 # Create a new Vite project with React and TypeScript
 npm create vite@latest name-of-my-react-app -- --template react-ts
 
