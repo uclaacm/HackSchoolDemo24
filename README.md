@@ -1,19 +1,31 @@
-# My React App with Vite and TypeScript
+## Useful Links
 
-Get started with Vite, React, and TypeScript. For more information, check out [Vite's official documentation](https://vitejs.dev/).
+- [Vite's Official Documentation](https://vitejs.dev/guide/)
+- [Tailwind CSS Guide for Vite](https://tailwindcss.com/docs/guides/vite)
 
-## Quick Start
+# Other
+- [Tailwind CSS Plugins Documentation](https://tailwindcss.com/docs/plugins)
+- [tailwindcss-animate GitHub](https://github.com/tailwindlabs/tailwindcss-animate)
+- [@tailwindcss/typography Plugin](https://github.com/tailwindlabs/tailwindcss-typography)
 
-```bash
-# Step 1: Create a new Vite project with React and TypeScript
+
+# Create a new Vite project with React and TypeScript
 npm create vite@latest name-of-my-react-app -- --template react-ts
 
-# Step 2: Navigate to your project folder
+# Navigate to your project folder
 cd name-of-my-react-app
 
-# Step 3: Install dependencies
+# Install dependencies
 npm install
 
-# Step 4: Run the development server
+# Run the development server
 npm run dev
 
+# Install Tailwind CSS and its peer dependencies
+npm install -D tailwindcss postcss autoprefixer
+
+# Initialize Tailwind CSS configuration files
+npx tailwindcss init -p
+
+# Install additional Tailwind CSS plugins for animations and typography
+npm install -D tailwindcss-animate @tailwindcss/typography
