@@ -8,6 +8,7 @@
 - [tailwindcss-animate GitHub](https://github.com/tailwindlabs/tailwindcss-animate)
 - [@tailwindcss/typography Plugin](https://github.com/tailwindlabs/tailwindcss-typography)
 - [ShadCN Themes](https://ui.shadcn.com/themes)
+- [Emojis](https://unicode.org/emoji/charts/full-emoji-list.html)
 
 ```bash
 # Create a new Vite project with React and TypeScript
