@@ -1,5 +1,5 @@
 import './App.css';
-import Component from './components/Component.tsx';
+import Component from './components/component.tsx';
 import Navbar from './components/Navbar.tsx';
 
 function App() {
