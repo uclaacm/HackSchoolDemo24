@@ -1,24 +1,30 @@
 function HackSchool () {
-  const tableStyles = {
-    table: {
-      width: '100%',
-      borderCollapse: 'collapse',
-      marginBottom: '40px',
-    },
-    th: {
-      borderBottom: '2px solid #ddd',
-      padding: '10px',
-      textAlign: 'center',
-    },
-    td: {
-      padding: '10px',
-      borderBottom: '1px solid #ddd',
-    },
-    link: {
-      color: '#d742f5',
-      fontWeight: 'bold',
-    },
-  };
+
+const tableStyles = {
+  table: {
+    width: '100%',
+    borderCollapse: 'collapse' as 'collapse',  // Use enum casting
+    marginBottom: '40px',
+  },
+  th: {
+    borderBottom: '2px solid #ddd',
+    padding: '10px',
+    textAlign: 'center' as 'center',  // Use enum casting
+  },
+  td: {
+    padding: '10px',
+    borderBottom: '1px solid #ddd',
+    textAlign: 'center' as 'center',  // Use enum casting
+  },
+  link: {
+    color: '#d742f5',
+    textDecoration: 'none',
+    fontSize: '1.1em',
+    fontWeight: 'bold',
+  },
+};
+
+  
 
   const sessions = [
     { session: 'Session 1', topic: 'Introduction to HTML, CSS, and Basic React with Vite', resources: 'https://example.com/readme1|https://example.com/slides1' },
@@ -30,7 +36,7 @@ function HackSchool () {
     { session: 'Session 7', topic: 'Project Showcase', resources: 'https://example.com/readme7|https://example.com/slides7' },
   ];
 
-  const renderResourceLinks = (resources) => {
+  const renderResourceLinks = (resources: string) => {
     const [readme, slides] = resources.split('|');
     return (
       <>
