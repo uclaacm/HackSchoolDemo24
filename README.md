@@ -1,9 +1,9 @@
 ## Useful Links
 
 - [Vite's Official Documentation](https://vitejs.dev/guide/)
-- [Tailwind CSS Guide for Vite](https://tailwindcss.com/docs/guides/vite)
 
-# Other
+# Styling
+- [Tailwind CSS Guide for Vite](https://tailwindcss.com/docs/guides/vite)
 - [Tailwind CSS Plugins Documentation](https://tailwindcss.com/docs/plugins)
 - [tailwindcss-animate GitHub](https://github.com/tailwindlabs/tailwindcss-animate)
 - [@tailwindcss/typography Plugin](https://github.com/tailwindlabs/tailwindcss-typography)
@@ -31,3 +31,7 @@ npx tailwindcss init -p
 
 # Install additional Tailwind CSS plugins for animations and typography
 npm install -D tailwindcss-animate @tailwindcss/typography
+
+# Install React Router DOM and type definitions for TypeScript
+npm install react-router-dom
+npm install @types/react-router-dom

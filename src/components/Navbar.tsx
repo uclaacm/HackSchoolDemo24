@@ -18,7 +18,7 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              to='/MoreInfo'
+              to='/team'
               className='inline-flex items-center justify-center h-10 px-4 rounded-md text-sm font-medium text-secondary-foreground hover:bg-secondary/90 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2'>
               Team
             </Link>
