@@ -19,9 +19,9 @@ function HackSchool() {
       >
         <thead>
           <tr>
-            <th style={{ borderBottom: '2px solid #ddd', padding: '10px', textAlign: 'centre' }}>Session</th>
-            <th style={{ borderBottom: '2px solid #ddd', padding: '10px', textAlign: 'centre' }}>Topic</th>
-            <th style={{ borderBottom: '2px solid #ddd', padding: '10px', textAlign: 'centre' }}>Resources</th>
+            <th style={{ borderBottom: '2px solid #ddd', padding: '10px', textAlign: 'center' }}>Session</th>
+            <th style={{ borderBottom: '2px solid #ddd', padding: '10px', textAlign: 'center' }}>Topic</th>
+            <th style={{ borderBottom: '2px solid #ddd', padding: '10px', textAlign: 'center' }}>Resources</th>
           </tr>
         </thead>
         <tbody>
