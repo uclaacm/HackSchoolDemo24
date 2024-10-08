@@ -58,9 +58,15 @@ const tableStyles = {
       <table style={tableStyles.table}>
         <thead>
           <tr>
+<<<<<<< HEAD
             <th style={tableStyles.th}>Session</th>
             <th style={tableStyles.th}>Topic</th>
             <th style={tableStyles.th}>Resources</th>
+=======
+            <th style={{ borderBottom: '2px solid #ddd', padding: '10px', textAlign: 'center' }}>Session</th>
+            <th style={{ borderBottom: '2px solid #ddd', padding: '10px', textAlign: 'center' }}>Topic</th>
+            <th style={{ borderBottom: '2px solid #ddd', padding: '10px', textAlign: 'center' }}>Resources</th>
+>>>>>>> new-repo/main
           </tr>
         </thead>
         <tbody>
